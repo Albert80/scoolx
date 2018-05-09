@@ -24,10 +24,6 @@ body, html {
     background-size: cover;
 }
 
-span {
-	font-size: 100px;
-}
-
 hr.w3-border-grey{
 	margin: auto;
 	width:80%;
