@@ -26,16 +26,17 @@
 <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
 <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<script src="./public/script.js"></script>
 
-<body>
+<body onload="comingSoon()">
 	<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
 	  <div class="w3-display-topleft w3-padding-large w3-xlarge">
 	    <span style="background-color: red;padding: 1px;text-align: center;">S</span><span>cool</span>
 	  </div>
 	  <div class="w3-display-middle">
-	    <h1 class="w3-jumbo w3-animate-top">PRÓXIMAMENTE</h1>
+	    <h1 class="w3-jumbo w3-animate-top" id="msg">PRÓXIMAMENTE</h1>
 	    <hr class="w3-border-grey" style="margin:auto;width:40%">
-	    <p class="w3-large w3-center">faltan 45 días</p>
+	    <p id="days" class="w3-large w3-center"></p>
 	  </div>
 	  <div class="w3-display-bottomleft w3-padding-large" style="color: red;">
 	    Powered by <a href="https://github.com/Albert80" target="_blank">César Alberto Trejo</a>
